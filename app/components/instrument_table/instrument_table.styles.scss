@@ -1,0 +1,41 @@
+.heading {
+  color: #ff1a50;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.table-text h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #ff1a50;
+
+  h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+  }
+}
+
+.custom-pagination .btn-primary {
+  background-color: red;
+  border-color: red;
+}
+
+.custom-pagination .btn-secondary {
+  background-color: lightgray;
+  border-color: lightgray;
+}
+
+.table-container {
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  th,
+  td {
+    width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
