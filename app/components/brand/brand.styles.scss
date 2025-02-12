@@ -41,7 +41,7 @@
   padding: 50px;
   border-radius: 8px;
   border: 1px solid #000000;
-  width: 100%;
+  width: 70%;
   height: 100%;
 
   h1 {
@@ -164,6 +164,8 @@
 
 @media (max-width: 768px) {
   .brand-introduce-text {
+    width: 100%;
+
     h2 {
       font-size: 27px;
     }
